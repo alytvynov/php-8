@@ -1,0 +1,23 @@
+{
+    "name": "alytvynov/php-8",
+    "description": "Php 8.0 major update",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Lytvynov",
+            "email": "lytvynov.anton@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    }
+}
