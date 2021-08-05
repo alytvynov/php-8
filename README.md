@@ -18,7 +18,7 @@ Quick pass throw the php 8.0 new features and updates.
 
 [Details](https://wiki.php.net/rfc/named_params)
 
-```
+```bash
 php run-1.php
 ```
 
@@ -26,7 +26,7 @@ php run-1.php
 
 [Details](https://www.php.net/manual/en/language.attributes.php)
 
-```
+```bash
 php run-2.php
 ```
 
@@ -34,7 +34,7 @@ php run-2.php
 
 [Details](https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion)
 
-```
+```bash
 php run-3.php
 ```
 
@@ -42,7 +42,7 @@ php run-3.php
 
 [Details](https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion)
 
-```
+```bash
 php run-4.php
 ```
 
@@ -50,7 +50,7 @@ php run-4.php
 `static` works since 8.0 as `self` and `parent`   
 [Details](https://www.php.net/manual/en/language.oop5.late-static-bindings.php)
 
-```
+```bash
 php run-5.php
 ```
 
@@ -59,25 +59,28 @@ php run-5.php
 ### Match expression
 [Details](https://www.php.net/manual/en/control-structures.match.php)
 
-```
+```bash
 php run-6.php
 ```
 
 ### Nullsafe
-```
+```php
 $country = $session?->user?->getAddress()?->country;
 ```
-```
+
+```bash
 php run-7.php
 ```
 
 ### Comma after the last argument
-```
+```php
 $user = new User(
     'Name',
     'Last Name',
     50,
-);```
+);
 ```
+
+```bash
 php run-8.php
 ```
