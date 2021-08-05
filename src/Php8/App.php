@@ -4,6 +4,13 @@ namespace App\Php8;
 
 class App
 {
+    /**
+     * App constructor.
+     *
+     * @param string $name
+     * @param string $secondName
+     * @param string $age
+     */
     public function __construct(
         public string $name,
         public string $secondName,
@@ -16,6 +23,13 @@ class App
         return new self(...$args);
     }
 
+    /**
+     * @param string $name
+     * @param string $secondName
+     * @param int    $age
+     *
+     * @return $this
+     */
     public function setNamedArguments(string $name = '', string $secondName = '', int $age = 0): self
     {
         $this->name       = $name;
