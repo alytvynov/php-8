@@ -63,8 +63,8 @@ php run-5.php
 php run-6.php
 ```
 
-### Nullsafe
-```php
+### Null safe
+```
 $country = $session?->user?->getAddress()?->country;
 ```
 
@@ -73,7 +73,7 @@ php run-7.php
 ```
 
 ### Comma after the last argument
-```php
+```
 $user = new User(
     'Name',
     'Last Name',
